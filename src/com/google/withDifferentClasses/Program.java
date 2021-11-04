@@ -11,15 +11,6 @@ public class Program {
         String name = scanner.next();
         Integer experience = scanner.nextInt();
         Float purposefulness = scanner.nextFloat();
-        System.out.println(1);
-        System.out.println(1);
-        System.out.println(1);
-        System.out.println(1);
-        System.out.println(1);
-        System.out.println(1);
-        System.out.println(1);
-        System.out.println(1);
-        System.out.println(1);
 
         Student student = new Student(name, experience, purposefulness);
         System.out.println(program.calculateRank(student));
