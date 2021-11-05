@@ -34,8 +34,8 @@ D) Creating an executable .jar file:
 
   1. Do the first step from A. Open the directory 'src'.
  
-  2. Create a file 'Manifest.txt' then you need to add a string like 'Main-Class: MyPackage.MyClass' in this file. 
-     In this case it will be 'Main-Class: com.google.withDifferentClasses.Program'
+  2. Create a file 'Manifest.txt' then you need to add a string like 'Main-Class: MyPackage.MyClass' in this file. The file must be ended with a new line
+     In this case it will be 'Main-Class: com.google.withDifferentClasses.Program' and new line.
 
   3. To create an executable jar file you need to execute a command like this 'jar cfm <jar_filename>.jar Manifest.txt MyPackage/*.class'
      In this case it will be ''jar cfm myJar.jar Manifest.txt com/google/withDifferentClasses/*.class'.
