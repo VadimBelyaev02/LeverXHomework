@@ -1,3 +1,5 @@
+#ConsolCompilation
+
 Compiling and running programs in Git Bash console
 
 A) Compiling and running the program with an external library:
